@@ -1,0 +1,17 @@
+print('OPERADORES ARITMÉTICOS \n+ Adição \n- Subtração \n* Multiplicação \n/ Divisão Real \n// Divisão inteiro \n** Exponenciação \n% Resto da Divisão \n')
+n1 = float(input('Digíte um número: '))
+n2 = float(input('Informe outro número: '))
+multiplicao = int(n1*n2)
+print(n1, 'x', n2, '=', multiplicao)
+adicao = int(n1+n2)
+print(n1, '+', n2, '=', adicao)
+subtracao = int(n1-n2)
+print(n1, '-', n2, '=', subtracao)
+divisaoReal = float(n1/n2)
+print(n1, '/', n2, '=', divisaoReal)
+divisaoInteiro = (n1//n2)
+print(n1, '//', n2, '=', divisaoInteiro)
+restoDivisao = n1%n2
+print('Resto da divisão de ',n1,'/', n2, '=', restoDivisao)
+exponenciacao = n1**n2
+print(n1, '^', n2, '=', exponenciacao)
